@@ -11,8 +11,6 @@ class Poke(discord.Client):
     def __init__(self, config_path: str, *args, **kwargs):
         self.config_path = config_path
         self.update_check = False
-        self.channel = None
-
         with open(self.config_path) as f:
             self.configs = json.load(f)
 
