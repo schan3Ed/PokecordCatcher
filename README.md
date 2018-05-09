@@ -49,6 +49,9 @@ Example config:
   "whitelist_channels": [369081842038603776, 369081842038603779],
   "blacklist_channels": [],
   "verbose": false
+  "findPokemon": false,
+  "findPokemon_channel": <your channel>,
+  "findPokemon_delay": 2
 }
 ```
 

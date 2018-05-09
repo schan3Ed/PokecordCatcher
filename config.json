@@ -1,5 +1,5 @@
 {
-  "token": "",
+  "token": "<your token>",
   "priority": [],
   "catch_rate": 100,
   "delay": 2,
@@ -8,5 +8,8 @@
   "avoid_list": [],
   "whitelist_channels": [],
   "blacklist_channels": [],
-  "verbose": true
+  "verbose": true,
+  "findPokemon": true,
+  "findPokemon_channel": <your channel>,
+  "findPokemon_delay": 2
 }
